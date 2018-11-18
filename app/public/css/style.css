@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit; 
+}
+
+body, html {
+    background-color: aliceblue;
+}
+.navbar {
+    margin-top: .5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 50px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.6), rgba(255, 255, 255)), url(../images/grassLandscape.jpg);
+    background-position: bottom;
+    font-weight: 500;
+    font-size: 110%;
+    border-radius: 10px;
+}
+
+.navbar img {
+    max-height: 100%;
+}
+
+.navbar-nav a:link, a:visited {
+    font-weight: 500;
+}
+.navbar-nav a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.container {
+    margin-top: 5%;
+    margin-left: 14%;
+    margin-right: 14%;
+    background-color: white;
+    padding: 5%;
+}
