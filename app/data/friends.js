@@ -1,7 +1,7 @@
 var friendsArray = [
 	{
 		name: 'Alakazam',
-		photo: 'images/Alakazam.png',
+		photo: '/images/Alakazam.png',
 		scores: [
 			'1',
 			'5',
@@ -17,7 +17,7 @@ var friendsArray = [
 	},
 	{
 		name: 'Blastoise',
-		photo: 'images/Blastoise.png',
+		photo: '/images/Blastoise.png',
 		scores: [
 			'2',
 			'4',
@@ -33,7 +33,7 @@ var friendsArray = [
 	},
 	{
 		name: 'Charizard',
-		photo: 'images/Charizard.png',
+		photo: '/images/Charizard.png',
 		scores: [
 			'4',
 			'3',
@@ -49,7 +49,7 @@ var friendsArray = [
 	},
 	{
 		name: 'Cloyster',
-		photo: 'images/Cloyster.png',
+		photo: '/images/Cloyster.png',
 		scores: [
 			'5',
 			'1',
@@ -65,7 +65,7 @@ var friendsArray = [
 	},
 	{
 		name: 'Golem',
-		photo: 'images/Golem.png',
+		photo: '/images/Golem.png',
 		scores: [
 			'1',
 			'1',
@@ -81,7 +81,7 @@ var friendsArray = [
 	},
 	{
 		name: 'Haunter',
-		photo: 'images/Haunter.png',
+		photo: '/images/Haunter.png',
 		scores: [
 			'1',
 			'1',
@@ -97,7 +97,7 @@ var friendsArray = [
 	},
 	{
 		name: 'Pidgeot',
-		photo: 'images/Pidgeot.png',
+		photo: '/images/Pidgeot.png',
 		scores: [
 			'5',
 			'4',
@@ -113,7 +113,7 @@ var friendsArray = [
 	},
 	{
 		name: 'Pikachu',
-		photo: 'images/Pikachu.png',
+		photo: '/images/Pikachu.png',
 		scores: [
 			'5',
 			'2',
@@ -129,7 +129,7 @@ var friendsArray = [
 	},
 	{
 		name: 'Snorlax',
-		photo: 'images/Snorlax.png',
+		photo: '/images/Snorlax.png',
 		scores: [
 			'5',
 			'5',
@@ -145,7 +145,7 @@ var friendsArray = [
 	},
 	{
 		name: 'Venusaur',
-		photo: 'images/Venusaur.png',
+		photo: '/images/Venusaur.png',
 		scores: [
 			'1',
 			'1',

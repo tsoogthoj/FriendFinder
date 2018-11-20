@@ -7,10 +7,12 @@
 }
 
 body, html {
-    background-color: aliceblue;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.95)), url(../images/background.jpg) no-repeat center center fixed;
+    background-size: cover;
 }
+
 .navbar {
-    margin-top: .5%;
+    margin-top: 20px;
     margin-left: 10%;
     margin-right: 10%;
     height: 50px;
@@ -33,10 +35,72 @@ body, html {
     border-radius: 10px;
 }
 
-.container {
+.home-container {
+    display: flex;
+    flex-direction: column;
     margin-top: 5%;
-    margin-left: 14%;
-    margin-right: 14%;
+    margin-left: 10%;
+    margin-right: 10%;
     background-color: white;
     padding: 5%;
+    border-radius: 10px;
+}
+
+a {
+    color: black;
+}
+
+h3 {
+    padding-top: 20px;
+}
+
+.survey-container {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: white;
+    padding: 5%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    margin-top: 20px;
+}
+
+.pokeModal {
+        display: none; 
+        position: fixed; 
+        z-index: 1;
+        left: 13%;
+        top: 15%;
+        width: 75%; 
+        height: 75%; 
+        overflow: auto; 
+        background-image: url(../images/Pokedex.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+
+}
+
+.pokeModal img {
+    position: absolute;
+    left: 42%;
+    top: 30%;
+    height: 30%;
+    width: auto;
+}   
+
+.pokeModal a:link, a:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+    display: inline-block;
+    border-radius: 10rem;
+    transition: all .2s;
+    position: absolute;
+    top: 80%;
+    left: 35%;
+    font-size: 22px;
 }

@@ -10,9 +10,8 @@ module.exports = function(app) {
 	app.post('/api/friends', function(req, res) {
 
 		var clientInput = req.body;
-
-		var userResponse = clientInput.scores;
-
+		console.log(clientInput)
+		var userResponses = clientInput.scores;
 		// Compute best friend match
 		var matchName = '';
 		var matchImage = '';
@@ -36,7 +35,7 @@ module.exports = function(app) {
 		}
 
 		// Add new user
-		friends.push(userInput);
+		// friends.push(userInput);
 
 		// Send appropriate response
 		res.json({status: 'OK', matchName: matchName, matchImage: matchImage});
