@@ -9,19 +9,19 @@ module.exports = function(app) {
 
 	app.post('/api/friends', function(req, res) {
 
-		var clientInput = req.body;
+		let clientInput = req.body;
 		console.log(clientInput)
-		var userResponses = clientInput.scores;
+		let userResponses = clientInput.scores;
 		// Compute best friend match
-		var matchName = '';
-		var matchImage = '';
-		var totalDifference = 10000;
+		let matchName = '';
+		let matchImage = '';
+		let totalDifference = 10000;
 
-		for (var i = 0; i < friends.length; i++) {
+		for (let i = 0; i < friends.length; i++) {
 
 			// Compute differenes for each question
-			var diff = 0;
-			for (var j = 0; j < userResponses.length; j++) {
+			let diff = 0;
+			for (let j = 0; j < userResponses.length; j++) {
 				diff += Math.abs(friends[i].scores[j] - userResponses[j]);
 			}
 
@@ -33,9 +33,6 @@ module.exports = function(app) {
 				matchImage = friends[i].photo;
 			}
 		}
-
-		// Add new user
-		// friends.push(userInput);
 
 		// Send appropriate response
 		res.json({status: 'OK', matchName: matchName, matchImage: matchImage});
